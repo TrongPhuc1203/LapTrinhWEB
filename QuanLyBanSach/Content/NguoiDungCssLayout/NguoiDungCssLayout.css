@@ -19,8 +19,31 @@ div#ToanTrang {
     float:left;
 }
 
+/*Css divDanhMuc*/
+#divDanhMuc {
+    height:30px;
+}
+/*Css cho menu header*/
+.navMenu {
+    float:right;
+    margin-right:10%;
+}
+.navMenu li{
+    display: inline;
+    padding: 20px;
+    padding-top:21px;
+    padding-bottom:22px;   
+}
+.navMenu li:hover {
+    background-color:black;
+}
+.navMenu a:hover {
+    text-decoration: none;    
+}
+
+
 #divMenuLeft {
-    float:left;
+    float: left;
     width: 400px;
 }
 
