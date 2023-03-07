@@ -1,0 +1,33 @@
+﻿body {
+}
+/*Sử dụng độ rộng cho div toàn trang*/
+div#ToanTrang {
+    position:relative;
+}
+/*Thiết kế link đăng ký đăng nhập*/
+.DangKyDangNhap {
+    float:right;
+    margin-top: -1%;
+}
+.DangKyDangNhap a:hover {
+    text-decoration:none;
+    color:green;
+}
+
+.DienThoai {
+    margin-top: -1%;
+    float:left;
+}
+
+#divMenuLeft {
+    float:left;
+    width: 400px;
+}
+
+.CacButtonTheLoai {
+    text-align:center;
+}
+
+.imageBookStore {
+    text-align: center;
+}

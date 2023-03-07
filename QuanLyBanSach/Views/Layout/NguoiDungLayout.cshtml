@@ -1,0 +1,68 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    @*Chèn link css của free template dowload*@
+    <link href="~/Content/NguoiDungCssLayout/fonts.css" rel="stylesheet" />
+    <link href="~/Content/NguoiDungCssLayout/screen.css" rel="stylesheet" />
+    @*Chèn css thiết kế*@
+    <link href="~/Content/NguoiDungCssLayout/NguoiDungCssLayout.css" rel="stylesheet" />
+</head>
+<body>
+    @RenderBody()
+    <div id="ToanTrang">
+        <section class="blank">
+            <div class="flash">
+                <div class="DienThoai">
+                    (84) 0123456789
+                </div>
+                @*Tạo div đăng ký đăng nhập*@
+                <div class="DangKyDangNhap">
+                    @Html.ActionLink("Đăng ký", "DangKy", null, htmlAttributes: new { @class = "DangKy" })
+                    @Html.ActionLink("Đăng nhập", "DangNhap", null, htmlAttributes: new { @class = "DangNhap" })
+
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="imageBookStore">
+                <img src="~/HinhAnh/BookStore.png" />
+            </div>
+        </section>
+
+        <section>
+            <div class="CacButtonTheLoai">
+                <a href="#" class="button">
+                    Tư duy - Kỹ năng sống
+                </a>
+                <a href="#" class="button button-submit">
+                    Văn học
+                </a>
+                <a href="#" class="button">
+                    Thiếu nhi
+                </a>
+                <a href="#" class="button button-submit">
+                    Sách làm Cha Mẹ
+                </a>
+                <a href="#" class="button">
+                    Tâm Linh
+                </a>
+                <a href="#" class="button button-submit">
+                    Lịch Sử
+                </a>
+            </div>
+
+        </section>
+
+        
+
+    </div>
+</body>
+</html>
